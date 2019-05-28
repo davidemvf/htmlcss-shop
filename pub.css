@@ -1,0 +1,50 @@
+.block{
+  display: inline-block;
+}
+
+
+
+
+
+.first{
+  height: 300px;
+  width: 200px;
+  border:2px solid gray;
+  background-color: white;
+  position: relative;
+  /*display: inline-block;*/
+  margin-bottom: 4px;
+}
+
+.greenpercent{
+  background-color: green;
+  position: absolute;
+  right:0;
+  z-index: 1;
+}
+
+.redpercent{
+  background-color: red;
+  position: absolute;
+  right:0;
+  z-index: 1;
+}
+
+.img{
+  position: absolute;
+  margin: auto;
+  height: 300px;
+  width: 200px;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+.hearth{
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  
+}
