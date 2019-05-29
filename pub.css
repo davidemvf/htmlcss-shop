@@ -46,5 +46,9 @@
   position: absolute;
   bottom: 0;
   right: 50%;
-  
+  display: none;
+}
+
+.first:hover .hearth{
+  display:block;
 }
